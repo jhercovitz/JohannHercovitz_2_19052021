@@ -1,0 +1,1078 @@
+body{
+    width: 100%;
+    font-family: raleway, sans-serif;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    padding-top: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 390px;    
+}
+
+nav{
+    float: right;
+    
+}
+
+nav li{
+    display: inline;
+}
+
+nav a{
+    padding: 20px 30px;
+    font-size: 16px;
+}
+
+.menu-heb a{
+    text-decoration: none;
+    color: #0065FC;
+    font-weight: bold;
+}
+.menu-act a{
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+.menu-ins a{
+    text-decoration: none;
+    color: #0065FC;
+    font-weight: bold;
+}
+
+.menu-heb:hover, .menu-ins:hover{
+    border-top: 2px solid blue;
+}
+.menu-act:hover{
+    border-top: 2px solid grey;
+
+}
+
+#logo{
+    width: 110px;
+    padding-bottom: 20px;
+}
+.logo{
+    width: 50%;
+    display: inline;
+}
+
+h1{
+    font-size: 25px;
+}
+
+#search {
+    width: 45px;
+    text-align: center;
+    height: 32px;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #F2F2F2;
+    padding-top: 12.9px;
+}
+#recherche{
+    height: 40px;
+    width: 250px;
+    padding-left: 15px;
+    border: solid 1.5px #F2F2F2;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#submit{
+    background-color: #0065FC;
+    border-radius: 0px 10px 10px 0px;
+    color: white;
+    height: 45px;
+    width: 150px;
+    border: 0px solid;
+    cursor: pointer ;
+    font-size: 18px;
+}
+p1{
+    margin-right: 35px;
+}
+.filtres{
+    display: flex;
+    padding-top: 40px;
+    align-items: center;
+}
+.input-icons i{
+    position: absolute;
+}
+#items{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    border-radius: 100px;
+    border: 1px solid #F2F2F2;
+    height: 32px;
+    width: 50px;
+    text-align: center;
+    padding-top: 16px;
+    position: absolute;
+    z-index: 1;
+}
+#eco{
+    background-color: white;
+    margin-right: 25px;
+    border-radius: 50px;
+    font-weight: bold;
+    border: 2.2px solid #F2F2F2;
+    height: 50px;
+    font-size: 18px;
+    padding-left: 68px;
+    padding-right: 30px;
+    cursor: pointer;
+    z-index: 0;
+}
+#eco:hover{
+    background-color: #0065FC;
+    border: 2px solid transparent;
+    color: #F2F2F2;
+}
+
+#info{
+    color: #0065FC;
+    border-radius: 100%;
+    border: 2px solid #F2F2F2;
+    margin-right: 12px;
+    padding: 5px;
+    width: 17px;
+    text-align: center;
+}
+
+.result{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+h2{
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    color: #DAA520;
+    text-shadow: 2px 2px 4px;
+}
+
+
+h3{
+    font-size: 25px;
+    color: #DAA520;
+}
+
+h4{
+    font-size: 30px;
+    color: #DAA520;
+    text-shadow: 2px 2px 4px;
+}
+
+
+.liste{
+    font-size: 18px;
+    color: #00006d;
+}
+
+
+#p2{
+    font-size: 10px;
+    color: #DAA520;    
+}
+
+#p3{
+    font-size: 15px;
+    color: ivory;
+}
+
+.a1{
+    color: #00006d;
+    text-decoration: none;
+}
+
+footer{
+    height: 280px;
+    padding-top: 0px;
+    text-align: center;
+    background-color: #00006d;
+}
+
+
+@media screen and (max-width: 780px){
+    header{
+        height: 50px;
+    }
+    h1{
+        font-size: 28px;
+        margin: 20px 0px 0px 0px;
+    }
+    nav li a{
+        font-size: 12px;
+        padding: 10px;
+    }
+    nav li:hover a{
+        padding: 5px 10px 10px 10px;
+    }
+}
+
+.link{
+    width: 100%;
+    background-color: #030338;
+    display: flex;
+    height: 60px;
+    margin: auto;
+    border-top: 5px solid #DAA520;
+}
+
+.link ul {
+    height: 30px;
+    display: flex;
+    margin: auto;
+    padding-bottom: 10px;
+}
+.link ul li{
+    list-style: none;
+}
+.link ul li .fab{
+    font-size: 32px;
+    line-height: 40px;
+    transition-duration: .9s;
+    color: #DAA520;
+}
+.link ul li .fab:hover{
+    color: #DAA520;
+}
+.link ul li a{
+    margin-bottom: 4px;
+    position: relative;
+    display:flow-root;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: .9s;
+}
+.link ul li a:hover{
+    transform: translate(0, -5px);
+}
+.link ul li:nth-child(1) a:hover{
+    background-color: #3b5999;
+}
+.link ul li:nth-child(2) a:hover{
+    background: linear-gradient(49.2deg, #f9ed32 10%, #ee2a7b 55%, #002aff);
+}
+.link ul li:nth-child(3) a:hover{
+    background-color: #FFFC00;
+}
+
+  #font{
+      font-size: 80px;
+      color: #DAA520;
+      margin-left: 30px;
+  }
+
+/* #submit{
+		background-color: #00006d;
+		border-radius: 4px;
+		color: white;
+		font-size: 1em;
+		height: 40px;
+		width: 96px;
+        border: 0px solid;
+        margin-left: 44%;
+        margin-top: -10px;
+} */
+    
+#liste{
+        font-size: 13px;
+        color: #DAA520;
+}
+
+
+    
+
+@media screen and (max-width: 360px){
+    header{
+        height: 200px;
+    }
+    
+    .logo,  #logo{
+        top: 10px;
+        left: 20px;
+        width: 45px
+    }
+    p{
+        font-size: 13px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 22px;
+    }
+    h4{
+        font-size: 19px;
+    }
+
+    #p1{
+        font-size: 8px;
+    }
+    #p2{
+        font-size: 5px;   
+    }
+    footer{
+        height: 200px;
+    }
+    
+    .link ul li .fab{
+        font-size: 22px;
+    }
+    .link{
+        height: 42px;
+    }
+    .table{
+        height: 40px;
+        display: flex;
+    }
+    nav li a {
+        font-size: 7.8px;
+    }
+    
+    .liste {
+        font-size: 12.3px;
+    }
+    
+    .a1 {
+        font-size: 10px;
+    }
+    footer {
+        height: 180px;
+    }
+    #p3{
+        font-size: 11px;
+    }
+    
+    #p4{
+        font-size: 13.5px;
+    }
+    
+    #submit{
+        height: 30px;
+        width: 66px;
+        margin-left: 95px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 669px) and (max-width: 740px){
+    .logo,  #logo{
+        top: 30px;
+        left: 50px;
+        width: 75px;
+    }
+    header {
+        height: 320px;
+    }
+    
+    h3{
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+    }
+    
+    .link{
+        height: 40px;
+    }
+    .link ul li .fab{
+        font-size: 27px;
+    }
+    #p1 {
+        font-size: 12px;
+    }
+    #p2{
+        font-size: 8px;
+    }
+    footer {
+        height: 227px;
+    }
+    h4 {
+        font-size: 24px;
+    }
+    
+    .liste {
+        font-size: 15px;
+    }
+    
+    .a1 {
+        font-size: 12px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    
+    #p4{
+        font-size: 15.6px;
+    }
+    
+    #submit{
+        height: 30px;
+        width: 66px;
+        margin-left: 120px;
+    }
+    #p3{
+        font-size: 11px;
+    }
+}
+
+@media screen and (min-width: 362px) and (max-width: 376px){
+    header{
+        height: 220px;
+    }
+    .logo,  #logo{
+        top: 15px;
+        left: 25px;
+        width: 55px;
+    }
+    nav li a {
+        font-size: 8.3px;
+    }
+    p{
+        font-size: 13px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 22px;
+    }
+    h4{
+        font-size: 19px;
+    }
+    
+    #p1{
+        font-size: 12px;
+    }
+    #p2{
+        font-size: 8px;   
+    }
+    footer{
+        height: 222px;
+    }
+    .link ul li .fab{
+        font-size: 26px;
+    }
+    .link{
+        height: 42px;
+    }
+    .table{
+        height: 40px;
+        display: flex;
+    }
+    
+    .liste {
+        font-size: 12.3px;
+    }
+    
+    
+    .a1 {
+        font-size: 11px;
+    }
+    #p3{
+        font-size: 11px;
+    }
+    
+    #p4{
+        font-size: 13.5px;
+    }
+    
+    #submit{
+        height: 30px;
+        width: 66px;
+        margin-left: 95px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 377px) and (max-width: 668px){
+    .logo,  #logo{
+        top: 30px;
+        left: 40px;
+        width: 86px;
+    }
+    header {
+        height: 340px;
+    }
+    
+    h1{
+        font-size: 26px;
+    }
+    
+    h3{
+        font-size: 18px;
+    }
+    p{
+        font-size: 15px;
+    }
+    
+    .link{
+        height: 40px;
+    }
+    .link ul li .fab{
+        font-size: 27px;
+    }
+    #p1 {
+        font-size: 12px;
+    }
+    #p2{
+        font-size: 8px;
+    }
+    footer {
+        height: 227px;
+    }
+    h4 {
+        font-size: 22px;
+    }
+    
+    .liste {
+        font-size: 15px;
+    }
+    
+    .a1 {
+        font-size: 12px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    a {
+        display: inline-block;
+    }
+    
+    #p4{
+        font-size: 15.6px;
+    }
+    
+    #submit{
+        height: 30px;
+        width: 66px;
+        margin-left: 120px;
+    }
+    #p3{
+        font-size: 11px;
+    }
+    
+}
+
+@media screen and (min-width: 392px) and (max-width: 415px){
+    header{
+        height: 220px;
+    }
+    
+    .logo,  #logo{
+        top: 20px;
+        left: 30px;
+        width: 55px;
+    }
+    nav li a {
+        font-size: 9.5px;
+    }
+    p{
+        font-size: 13px;
+    }
+    h3{
+        font-size: 17px;
+    }
+    h1{
+        font-size: 22px;
+    }
+    h4{
+        font-size: 19px;
+    }
+    
+    #p1{
+        font-size: 12px;
+    }
+    #p2{
+        font-size: 8px;   
+    }
+    footer{
+        height: 221px;
+    }
+    .link ul li .fab{
+        font-size: 29px;
+    }
+    .link{
+        height: 42px;
+    }
+    .table{
+        height: 40px;
+        display: flex;
+    }
+    
+    .liste {
+        font-size: 12.3px;
+    }
+    
+    .a1 {
+        font-size: 11px;
+    }
+    #p3{
+        font-size: 11px;
+    }
+    
+    #p4{
+        font-size: 13.5px;
+    }
+    
+    #submit{
+        height: 30px;
+        width: 66px;
+        margin-left: 95px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 846px) and (max-width: 896px){
+    header {
+        height: 380px;
+    }
+    
+    .logo,  #logo{
+        top: 40px;
+        left: 50px;
+        width: 100px
+    }
+    nav {
+        height: 48px;
+    }
+    nav li a {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    
+    h3 {
+        font-size: 21px;
+    }
+    p {
+        font-size: 15px;
+    }
+    
+    .link {
+        height: 45px;
+    }
+    .link ul li .fab{
+        font-size: 30px;
+    }
+    #p1 {
+        font-size: 12px;
+    }
+    #p2 {
+        font-size: 9px;
+    }
+    footer {
+        height: 237px;
+    }
+    h4 {
+        font-size: 25px;
+    }
+    
+    .liste {
+        font-size: 15px;
+    }
+    
+    a {
+        display: inline-block;
+    }
+    
+    #p4{
+        font-size: 16.5px;
+    }
+    
+    #submit{
+        height: 30px;
+        width: 66px;
+        margin-left: 120px;
+    }
+    #p3{
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+}
+
+@media screen and (min-width: 742px) and (max-width: 770px){
+    header {
+        height: 380px;
+    }
+    
+    .logo,  #logo{
+        top: 40px;
+        left: 50px;
+        width: 100px
+    }
+    nav {
+        height: 42px;
+    }
+    nav li a {
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    
+    h3 {
+        font-size: 21px;
+    }
+    p {
+        font-size: 16px;
+    }
+    
+    .link {
+        height: 45px;
+    }
+    .link ul li .fab{
+        font-size: 30px;
+    }
+    #p1 {
+        font-size: 12px;
+    }
+    #p2 {
+        font-size: 9px;
+    }
+    footer {
+        height: 237px;
+    }
+    h4 {
+        font-size: 27px;
+    }
+    
+    .liste {
+        font-size: 16px;
+    }
+    
+    a {
+        display: inline-block;
+    }
+    
+    #p4{
+        font-size: 16.5px;
+    }
+    
+    #submit{
+        height: 30px;
+        width: 66px;
+        margin-left: 120px;
+    }
+    #p3{
+        font-size: 12px;
+    }
+    
+    h2 {
+        font-size: 27px;
+    }
+}
+
+@media screen and (min-width: 898px) and (max-width: 1024px){
+    .logo,  #logo{
+        top: 50px;
+        left: 70px;
+        width: 130px;
+    }
+    nav {
+        height: 53px;
+    }
+    nav li a {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 37px;
+    }
+    
+    h3 {
+        font-size: 23px;
+    }
+    p {
+        font-size: 17px;
+    }
+
+    .link {
+        height: 50px;
+    }
+    .link ul li .fab {
+        font-size: 32px;
+    }
+    #p1 {
+        font-size: 13px;
+    }
+    #p2 {
+        font-size: 9px;
+    }
+    footer {
+        height: 262px;
+    }
+    header {
+        height: 500px;
+    }
+    h4 {
+        font-size: 28px;
+    }
+    
+    .liste {
+        font-size: 17px;
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+    
+    a {
+        display: inline-block;
+    }
+    
+    #p4{
+        font-size: 15.6px;
+    }
+    
+    #submit {
+        height: 38px;
+        width: 75px;
+        margin-left: 40%;
+    }
+    #p3{
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 377px) and (max-width: 391px){
+    header{
+        height: 220px;
+    }
+
+    .logo,  #logo{
+        top: 12px;
+        left: 25px;
+        width: 55px;
+    }
+    nav li a {
+        font-size: 8.8px;
+    }
+    p{
+        font-size: 13px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    h1{
+        font-size: 22px;
+    }
+    h4{
+        font-size: 19px;
+    }
+    
+    #p1{
+        font-size: 12px;
+    }
+    #p2{
+        font-size: 8px;   
+    }
+    footer{
+        height: 222px;
+    }
+    .link ul li .fab{
+        font-size: 29px;
+    }
+    .link{
+        height: 42px;
+    }
+    .table{
+        height: 40px;
+        display: flex;
+    }
+    
+    .liste {
+        font-size: 12.3px;
+    }
+    
+    .a1 {
+        font-size: 11px;
+    }
+    #p3{
+        font-size: 11px;
+    }
+    
+    #p4{
+        font-size: 13.5px;
+    }
+    
+    #submit{
+        height: 30px;
+        width: 66px;
+        margin-left: 95px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 772px) and (max-width: 844px){
+    header {
+        height: 380px;
+    }
+    .logo,  #logo{
+        top: 40px;
+        left: 50px;
+        width: 100px
+    }
+    nav {
+        height: 48px;
+    }
+    nav li a {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    
+    h3 {
+        font-size: 21px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .ileft, .geneve-night-responsive {
+        width: 421px;
+        height: 390px;
+    }
+    .iright, .dubai-night-responsive{
+        width:422px;
+        height: 390px;
+    }
+    .link {
+        height: 45px;
+    }
+    .link ul li .fab{
+        font-size: 30px;
+    }
+    #p1 {
+        font-size: 12px;
+    }
+    #p2 {
+        font-size: 9px;
+    }
+    footer {
+        height: 237px;
+    }
+    h4 {
+        font-size: 25px;
+    }
+    
+    .liste {
+        font-size: 15px;
+    }
+
+    a {
+        display: inline-block;
+    }
+    
+    #p4{
+        font-size: 16.5px;
+    }
+    .right3 {
+        width: 356px;
+        margin-left: 25px;
+    }
+    #submit{
+        height: 30px;
+        width: 66px;
+        margin-left: 120px;
+    }
+    #p3{
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+}
+
+@media screen and (min-width: 770px) and (max-width: 812px){
+    header {
+        height: 350px;
+    }
+    
+    nav {
+        height: 48px;
+    }
+    nav li a {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    
+    h3 {
+        font-size: 21px;
+    }
+    p {
+        font-size: 15px;
+    }
+    
+    .link {
+        height: 45px;
+    }
+    .link ul li .fab{
+        font-size: 30px;
+    }
+    #p1 {
+        font-size: 12px;
+    }
+    #p2 {
+        font-size: 9px;
+    }
+    footer {
+        height: 237px;
+    }
+    h4 {
+        font-size: 25px;
+    }
+    
+    .liste {
+        font-size: 15px;
+    }
+    
+    #p4{
+        font-size: 16.5px;
+    }
+    .right3 {
+        width: 356px;
+        margin-left: 25px;
+    }
+    #submit{
+        height: 30px;
+        width: 66px;
+        margin-left: 133px;
+    }
+    #p3{
+        font-size: 12px;
+    }
+    .left3{
+        width: 42%;
+    }
+    h2 {
+        font-size: 27px;
+    }
+}
+    
