@@ -67,10 +67,10 @@ h1{
 #search {
     width: 45px;
     text-align: center;
-    height: 32px;
+    height: 33px;
     border-radius: 10px 0px 0px 10px;
     background-color: #F2F2F2;
-    padding-top: 12.9px;
+    padding-top: 11.5px;
 }
 #recherche{
     height: 40px;
@@ -229,7 +229,7 @@ p2{
 
 .des_pop{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin-right: 20px;
     background-color: white;
     padding: 6px;
@@ -244,40 +244,103 @@ p2{
     border-radius: 15px 0px 0px 15px;
 }
 
+.text_pop{
+    margin-left: 10px;
+}
+
+.pop_star{
+    margin-left: 10px;
+    margin-top: 65px;
+}
+
+.activites{
+    margin-inline: 40px;
+}
+
+.left_act{
+    float: left;
+    width: 50%;
+}
+.right_act{
+    float: right;
+    width: 48.5%;
+}
+.big_act{
+    float: left;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 20px #f2f2f2;
+}
+.left_images_act{
+    border-radius: 20px 20px 0px 0px;
+    width: 310px;
+    height: 410px;
+}
+.small_act{
+    margin-left: 355px;
+    margin-right: 29px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px #f2f2f2;
+}
+.right_images_act{
+    border-radius: 20px 20px 0px 0px;
+    width: 340px;
+    height: 190px;
+}
+.right_images_act2{
+    width: 340px;
+    height: 130px;
+    border-radius: 20px 20px 0px 0px;
+}
+.small_act2{
+    margin-left: 355px;
+    margin-right: 29px;
+    margin-top: 49px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px #f2f2f2;
+}
+
 h3{
-    font-size: 25px;
-    color: #DAA520;
-}
-
-h4{
-    font-size: 30px;
-    color: #DAA520;
-    text-shadow: 2px 2px 4px;
-}
-
-
-.liste{
     font-size: 18px;
-    color: #00006d;
-}
-
-#p3{
-    font-size: 15px;
-    color: ivory;
-}
-
-.a1{
-    color: #00006d;
-    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 footer{
-    height: 280px;
-    padding-top: 0px;
+    width: 100%;
+    display: inline-table;;
+    height: 210px;
+    padding-top: 30px;
+    margin-top: 50px;
     text-align: center;
-    background-color: #00006d;
+    background-color: #F2F2F2;
 }
 
+h4{
+    font-size: 18px;
+    padding-bottom: 10px;
+    margin-bottom: 8px;
+}
+
+.foot1{
+    float: left;
+    margin-left: 50px;
+    text-align: start;
+}
+.foot2{
+    float: left;
+    margin-left: 220px;
+    text-align: start;
+}
+.foot3{
+    float: right;
+    text-align: start;
+    margin-right: 380px;
+}
 
 @media screen and (max-width: 780px){
     header{
