@@ -450,7 +450,7 @@ h4{
 
 
 
-/* @media only screen and (device-width : 375px) and (device-height : 667px){
+@media only screen and (device-width : 375px) and (device-height : 667px){
 
     .logo, #logo {
         margin-top: 10px;
@@ -464,7 +464,7 @@ h4{
         display: flex;
         width: 375px;
         border-bottom: 1px solid; /*voir couleur*/
-    /*}
+    }
 
      nav {
         margin-top: -20px;
@@ -527,7 +527,8 @@ h4{
         background-position: center;
         width: 45px;
         background-image: url(images/search-solid.svg); /* mettre en blanc */
-    /*}
+    }
+
     .p1{
         width: 100%;
     }
@@ -675,7 +676,7 @@ h4{
         margin-left: 20px;
     }
 
-} */
+}
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
     .logo, #logo {
@@ -686,58 +687,21 @@ h4{
 
     .menu {
         float: none;
-        margin-left: 70px;
+        margin-left: 150px;
     }
 
     nav a{
         font-size: 20px;
     }
 
-    /*nav {
-        margin-top: -20px;
-        margin-bottom: -30px;
-    }
-
-    nav li {
-        display: inline-block;
-    }*/
-
     .menu-ins a{
         font-size: 20px;
     }
-    /*.menu-heb a {
-        font-weight: initial;
-        font-size: 18px;
-        margin-left: -20px;
-        float: left;
-        width: 105px;
-        margin-top: -20px;
-    }
-    .menu-act a{
-        font-weight: initial;
-        font-size: 18px;
-        margin-right: -95px;
-        float: right;
-        color: black;
-    }*/
 
     header {
         height: auto;
         padding-bottom: 10px;
     }
-
-    /*.header{
-        display: inline-block;
-        margin-left: 10px;
-    }
-
-    #search{
-        margin-left: 5px;
-    }
-
-    #recherche{
-        width: 240px;
-    }*/
 
     #submit{
         padding-bottom: 4px;
@@ -752,11 +716,6 @@ h4{
         justify-content: center;
     }
 
-    /*.eco{
-        font-size: 16px;
-        padding-left: 60px;
-        padding-right: 15px;
-    }*/
     .Inputicon{
         margin-bottom: 15px;
     }
@@ -772,6 +731,7 @@ h4{
         margin-left: 0;
         margin-right: 0;
         margin-top: 10px;
+        margin-bottom: 40px;
         padding-left: 20px;
         padding-right: 0;
         display: flex;
@@ -804,7 +764,7 @@ h4{
     
 
     .hebergement{
-        width: 100%;
+        width: 768px;
         margin-left: 0;
         border-radius: 0;
     }
@@ -824,78 +784,23 @@ h4{
         width: 300px;
     }
 
-    /*h2{
-        margin-top: 0px;
-    }
-
-    .activites{
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top: 0px;
+    h1{
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
 
     .left_act{
-        display: flex;
-        flex-direction: column;
-        width: 375px;
-        float: none;
+        margin-bottom: 30px;
+        width: 100%;
     }
     .right_act{
-        display: flex;
-        flex-direction: column;
-        width: 375px;
-        float: none;
-        margin-top: 20px;
+        width: 100%;
     }
 
-    .left_images_act{
-        width: 325px;
-        height: 150px;
-    }
-    .right_images_act{
-        width: 325px;
-        height: 150px;
-    }
-    .right_images_act2{
-        width: 325px;
-        height: 150px;
-    }
-
-    .big_act{
-        width: 325px;
-    }
-    .small_act{
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 20px;
-        width: 325px;
-    }
-
-    .small_act2{
-        margin-left: 0px;
-        width: 325px;
-        margin-top: 20px;
-    }
-
-    footer{
-        display: flex;
-        flex-direction: column;
-        width: auto;
-        height: auto;
-        padding-bottom: 30px;
-    }
-
-    .foot1{
-        float: none;
-        margin-left: 20px;
-    }
-    .foot2{
-        float: none;
-        margin-left: 20px;
-    }
     .foot3{
-        float: none;
-        margin-left: 20px;
-    } */
+        margin-right: 295px;
+    }
 
 }
