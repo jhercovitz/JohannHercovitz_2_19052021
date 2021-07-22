@@ -404,14 +404,14 @@ h4 {
     .logo,
     #logo {
         margin-top: 10px;
-        margin-left: 10px;
-        width: 120px;
+        margin-left: 0.625rem;
+        width: 7.5rem;
         padding-bottom: 0px;
     }
     .menu {
         float: none;
         display: flex;
-        width: 375px;
+        width: 100%;
         border-bottom: 1px solid;
         /*voir couleur*/
     }
@@ -430,42 +430,43 @@ h4 {
     .menu-heb a {
         font-weight: initial;
         font-size: 18px;
-        margin-left: -20px;
+        margin-left: -1.25rem;
         float: left;
-        width: 105px;
+        width: 6.563rem;
         margin-top: -20px;
     }
     .menu-act a {
         font-weight: initial;
         font-size: 18px;
-        margin-right: -95px;
+        margin-right: -5.938rem;
         float: right;
         color: black;
     }
     header {
-        margin-right: 0px;
-        margin-left: 10px;
+        margin-right: 0;
+        margin-left: 0.625rem;
         margin-top: 10px;
-        width: 375px;
+        width: 100%;
         height: 660px;
         padding-bottom: 10px;
     }
     .header {
         display: inline-block;
-        margin-left: 10px;
+        margin-left: 0.625rem;
     }
     #search {
-        margin-left: 5px;
+        margin-left: 0.313rem;
     }
     #recherche {
-        width: 240px;
+        width: 15rem;
+        padding-left: 1rem;
     }
     #submit {
         color: rgba(255, 255, 255, 0);
         background-repeat: no-repeat;
         background-size: 35%;
         background-position: center;
-        width: 45px;
+        width: 2.813rem;
         background-image: url(images/search-solid.svg);
     }
     .p1 {
@@ -473,18 +474,23 @@ h4 {
     }
     .filtres {
         padding-top: 10px;
-        margin-left: 10px;
+        margin-left: 0.625rem;
     }
     .eco {
         font-size: 16px;
-        padding-left: 60px;
-        padding-right: 15px;
+        padding-left: 3.75rem;
+        padding-right: 0.938rem;
     }
     .Inputicon {
+        margin-left: -0.625rem;
         margin-bottom: 10px;
         position: relative;
     }
+    #info {
+        width: 1.55rem;
+    }
     section {
+        margin-top: -1.5rem;
         width: auto;
         flex-direction: column-reverse;
     }
@@ -493,22 +499,22 @@ h4 {
         border-radius: 0;
         margin-left: 0;
         margin-right: 0;
-        padding-left: 20px;
+        padding-left: 1.25rem;
         padding-right: 0;
     }
     #pop_item {
-        margin-left: 110px;
+        margin-left: 6.25rem;
     }
     h6 {
         font-size: 22px;
     }
     .des_pop {
         height: 120px;
-        width: 305px;
+        width: 19.063rem;
     }
     .images_pop {
         height: 120px;
-        width: 120px;
+        width: 7.5rem;
     }
     .pop_star {
         margin-top: 0px;
@@ -517,8 +523,8 @@ h4 {
         background-color: white;
         display: flex;
         flex-wrap: wrap;
-        width: 375px;
-        margin-left: 20px;
+        width: 100%;
+        margin-left: 1.25rem;
         padding-left: 0px;
     }
     h5 {
@@ -526,88 +532,88 @@ h4 {
         font-size: 22px;
     }
     .description {
-        width: 325px;
+        width: 20.313rem;
         margin-right: 0px;
         box-shadow: 1px 1px 20px #f2f2f2;
         margin-bottom: 10px;
     }
     .images_heberge {
-        width: 325px;
+        width: 20.313rem;
     }
     h2 {
         margin-top: 0px;
     }
     .activites {
-        margin-left: 20px;
-        margin-right: 20px;
+        width: 20.313rem;
+        margin-left: 1.25rem;
         margin-top: 0px;
     }
     .left_act {
         display: flex;
         flex-direction: column;
-        width: 375px;
+        width: 100%;
         float: none;
     }
     .right_act {
         display: flex;
         flex-direction: column;
-        width: 375px;
+        width: 100%;
         float: none;
         margin-top: 20px;
     }
     .left_images_act {
-        width: 325px;
+        width: 100%;
         height: 150px;
     }
     .right_images_act {
-        width: 325px;
+        width: 100%;
         height: 150px;
     }
     .right_images_act2 {
-        width: 325px;
+        width: 100%;
         height: 150px;
     }
     .big_act {
-        width: 325px;
+        width: 100%;
     }
     .small_act {
         margin-left: 0;
         margin-right: 0;
         margin-top: 20px;
-        width: 325px;
+        width: 100%;
     }
     .small_act2 {
         margin-left: 0px;
-        width: 325px;
+        width: 100%;
         margin-top: 20px;
     }
     footer {
         display: flex;
         flex-direction: column;
-        width: auto;
+        width: 100%;
         height: auto;
         padding-bottom: 30px;
     }
     .foot1 {
         float: none;
-        margin-left: 20px;
+        margin-left: 1.25rem;
     }
     .foot2 {
         float: none;
-        margin-left: 20px;
+        margin-left: 1.25rem;
     }
     .foot3 {
         float: none;
-        margin-left: 20px;
+        margin-left: 1.25rem;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .logo,
     #logo {
-        width: 150px;
+        width: 9.375rem;
         margin-top: 0px;
-        margin-left: 10px;
+        margin-left: 0.625rem;
     }
     .menu {
         float: none;
