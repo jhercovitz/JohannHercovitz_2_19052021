@@ -622,16 +622,16 @@ h4 {
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .logo,
     #logo {
-        width: 9.375rem;
+        width: 21%;
         margin-top: 0px;
-        margin-left: 0.625rem;
+        margin-left: 1.5%;
     }
     .menu {
         float: none;
-        margin-left: 9.375rem;
+        margin-left: 21%;
     }
     nav a {
         font-size: 20px;
@@ -643,8 +643,16 @@ h4 {
         height: auto;
         padding-bottom: 10px;
     }
+    #search {
+        width: 7%;
+    }
+    #recherche {
+        width: 28%;
+        padding-left: 3%;
+    }
     #submit {
         padding-bottom: 4px;
+        width: 20%;
     }
     .p1 {
         width: 100%;
@@ -656,6 +664,9 @@ h4 {
     }
     .Inputicon {
         margin-bottom: 15px;
+    }
+    .item {
+        width: 6.3%;
     }
     #info {
         width: 1.15rem;
@@ -671,7 +682,7 @@ h4 {
         margin-right: 0;
         margin-top: 10px;
         margin-bottom: 40px;
-        padding-left: 1.25rem;
+        padding-left: 3%;
         padding-right: 0;
         display: flex;
         flex-direction: row;
@@ -679,7 +690,7 @@ h4 {
         justify-content: center;
     }
     #pop_item {
-        margin-left: 2.5rem;
+        margin-left: 7%;
     }
     h6 {
         width: 100%;
@@ -687,20 +698,20 @@ h4 {
         justify-content: center;
     }
     .des_pop {
-        width: 33.125rem;
+        width: 73%;
     }
     .text_pop {
-        margin-left: 2.5rem;
+        margin-left: 5%;
     }
     .images_pop {
         height: 180px;
-        width: 15.625rem;
+        width: 46%;
     }
     .width-330 {
-        width: 20.625rem;
+        width: 53%;
     }
     .hebergement {
-        width: 100%;
+        width: auto;
         margin-left: 0;
         border-radius: 0;
     }
@@ -710,11 +721,12 @@ h4 {
         justify-content: center;
     }
     .description {
-        margin-left: 0.7rem;
+        margin-left: 3.5%;
+        width: 40%;
     }
     .images_heberge {
         height: 150px;
-        width: 18.75rem;
+        width: 100%;
     }
     h1 {
         font-size: 25px;
@@ -728,6 +740,9 @@ h4 {
     }
     .right_act {
         width: 100%;
+    }
+    .foot1 {
+        margin-left: 12.5%;
     }
     .foot3 {
         margin-right: 18.438rem;
