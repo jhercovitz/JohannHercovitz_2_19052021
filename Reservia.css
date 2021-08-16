@@ -11,7 +11,7 @@ body {
 header {
     padding-top: 0px;
     padding-bottom: 30px;
-    margin-left: 3.5%;
+    margin-left: 2.5%;
     margin-right: 3.5%;
     height: auto;
     margin-top: 25px;
@@ -99,10 +99,10 @@ h6 {
 #search {
     width: 2.7rem;
     text-align: center;
-    height: 33px;
+    height: 31px;
     border-radius: 10px 0px 0px 10px;
     background-color: #F2F2F2;
-    padding-top: 11.5px;
+    padding-top: 13.5px;
 }
 
 #recherche {
@@ -128,7 +128,7 @@ h6 {
     background-color: #0065FC;
     border-radius: 0px 10px 10px 0px;
     color: white;
-    height: 44px;
+    height: 45px;
     width: 11.5%;
     border: 0px solid;
     cursor: pointer;
@@ -236,6 +236,7 @@ section {
     border-radius: 20px;
     margin-bottom: 30px;
     width: 28%;
+    box-shadow: 5px 7px 12px rgb(226, 218, 218);
 }
 
 h2 {
@@ -296,6 +297,7 @@ h2 {
     padding: 6px;
     border-radius: 20px;
     margin-bottom: 30px;
+    box-shadow: 5px 7px 12px rgb(226, 218, 218);
 }
 
 .images_pop {
@@ -335,7 +337,7 @@ h2 {
     float: left;
     border-radius: 20px;
     background-color: white;
-    box-shadow: 1px 1px 20px #f2f2f2;
+    box-shadow: 5px 7px 12px rgb(226, 218, 218);
 }
 
 .left_images_act {
@@ -350,16 +352,17 @@ h2 {
     margin-left: 51%;
     background-color: white;
     border-radius: 20px;
-    box-shadow: 1px 1px 20px #f2f2f2;
+    box-shadow: 5px 7px 12px rgb(226, 218, 218);
 }
 
 .small_act2 {
-    width: 50%;
-    margin-left: 50.5%;
+    width: 49%;
+    margin-left: 51%;
     margin-top: 49px;
     background-color: white;
     border-radius: 20px;
-    box-shadow: 1px 1px 20px #f2f2f2;
+    box-shadow: 5px 7px 12px rgb(226, 218, 218);
+    ;
 }
 
 .right_images_act {
@@ -708,7 +711,7 @@ h4 {
     .description {
         width: 91.5%;
         margin-right: 0px;
-        box-shadow: 1px 1px 20px #f2f2f2;
+        box-shadow: 5px 7px 12px rgb(226, 218, 218);
         margin-bottom: 10px;
     }
     h2 {
